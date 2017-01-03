@@ -1,0 +1,78 @@
+{
+	"userSecretsId": "493726708841-ctdnlrt1jm6ch9jsnr8fgrr2fcle7fs1.apps.googleusercontent.com",
+	"dependencies": {
+		"Microsoft.NETCore.App": "1.1.0",
+		"Microsoft.Extensions.Logging": "1.1.0",
+		"Microsoft.AspNetCore.Mvc": "1.1.0",
+		"Microsoft.AspNetCore.Routing": "1.1.0",
+		"Microsoft.AspNetCore.Server.IISIntegration": "1.1.0",
+		"Microsoft.AspNetCore.Server.Kestrel": "1.1.0",
+		"Microsoft.Extensions.Configuration.EnvironmentVariables": "1.1.0",
+		"Microsoft.Extensions.Configuration.FileExtensions": "1.1.0",
+		"Microsoft.Extensions.Configuration.Json": "1.1.0",
+		"Microsoft.Extensions.Logging.Console": "1.1.0",
+		"Microsoft.Extensions.Logging.Debug": "1.1.0",
+		"Microsoft.Extensions.Options.ConfigurationExtensions": "1.1.0",
+		"Newtonsoft.Json": "9.0.2-beta1",
+		"Abc.Service": "1.0.0-*",
+		"AutoMapper": "5.2.0",
+		"FluentValidation": "6.4.0-beta9",
+		"AutoMapper.Data": "1.0.0-beta1",
+		"Microsoft.AspNetCore.Authentication.Google": "1.1.0",
+		"Microsoft.AspNetCore.Http.Extensions": "1.1.0",
+		"Google.Apis.Calendar.v3": "1.20.0.710",
+		"Swashbuckle": "6.0.0-beta902"
+	},
+
+	"tools": {
+		"Microsoft.AspNetCore.Server.IISIntegration.Tools": {
+			"version": "1.1.0-preview4-final",
+			"imports": "portable-net45+win8+dnxcore50"
+		},
+		"Microsoft.EntityFrameworkCore.Tools": {
+			"version": "1.1.0-preview4-final",
+			"imports": [
+				"portable-net45+win8+dnxcore50",
+				"portable-net45+win8"
+			]
+		},
+		"Microsoft.Extensions.SecretManager.Tools": "1.1.0-preview4-final"
+	},
+
+	"frameworks": {
+		"netcoreapp1.1": {
+			"imports": [
+				"dotnet5.6",
+				"dnxcore50",
+				"portable-net45+win8"
+			]
+		}
+	},
+
+	"buildOptions": {
+		"emitEntryPoint": true,
+		"preserveCompilationContext": true
+	},
+
+	"runtimeOptions": {
+		"gcServer": true,
+		"gcConcurrent": true
+	},
+
+	"publishOptions": {
+		"include": [
+			"wwwroot",
+			"**/*.cshtml",
+			"appsettings.json",
+			"web.config"
+		]
+	},
+
+	"scripts": {
+		"postpublish": [ "dotnet publish-iis --publish-folder %publish:OutputPath% --framework %publish:FullTargetFramework%" ]
+	},
+	"runtimes": {
+		"win10-x64": {},
+		"osx.10.10-x64": {}
+	}
+}

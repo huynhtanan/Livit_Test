@@ -1,0 +1,17 @@
+﻿@using Abc.Api.ViewModels;
+
+@{
+	var url = "https://accounts.google.com/o/oauth2/auth?";
+	var clientId = GoogleAPIInfo.ClientID;
+	var redirectUrl = Url.Action("Confirmation", "Home", null, Context.Request.Scheme, null);
+	var responeType = GoogleAPIInfo.ResponseType;
+	var scope = GoogleAPIInfo.Scope;
+	var accessType = GoogleAPIInfo.AccessType;
+	var authUrl = url + "client_id=" + clientId + "&redirect_uri=" + redirectUrl + "&response_type=" + responeType + "&scope=" + scope + "&access_type=" + accessType;
+}
+
+<div style="width:100%; text-align:center">
+	<h2>
+		You are not logged in. Click <a href="@authUrl" target="_blank">here</a> to log in with your Gmail.
+	</h2>
+</div>

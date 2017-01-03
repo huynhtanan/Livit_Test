@@ -1,0 +1,4 @@
+#:C:\Projects\Livit_Test\src\Abc.Api\Abc.Api.xproj
+C:\Projects\Livit_Test\src\Abc.Api\Abc.Api.xproj|C:\Projects\Livit_Test\src\Abc.Service\Abc.Service.xproj
+C:\Projects\Livit_Test\src\Abc.Service\Abc.Service.xproj|C:\Projects\Livit_Test\src\Abc.Dal\Abc.Dal.xproj
+C:\Projects\Livit_Test\src\Abc.Dal\Abc.Dal.xproj|C:\Projects\Livit_Test\src\Abc.ApiContract\Abc.ApiContract.xproj

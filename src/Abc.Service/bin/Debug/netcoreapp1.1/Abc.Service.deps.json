@@ -1,0 +1,442 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v1.1",
+    "signature": "6445bf6a2b67c990b08e292c290ecbd5dd60d15d"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v1.1": {
+      "Abc.Service/1.0.0": {
+        "dependencies": {
+          "Abc.Dal": "1.0.0",
+          "AutoMapper": "5.2.0",
+          "MailKit": "1.10.1"
+        },
+        "runtime": {
+          "Abc.Service.dll": {}
+        }
+      },
+      "AutoMapper/5.2.0": {
+        "dependencies": {
+          "System.Collections.Specialized": "4.0.1",
+          "System.ComponentModel.TypeConverter": "4.1.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/AutoMapper.dll": {}
+        }
+      },
+      "MailKit/1.10.1": {
+        "dependencies": {
+          "MimeKit": "1.10.0",
+          "Portable.BouncyCastle": "1.8.1.1",
+          "System.Data.Common": "4.3.0",
+          "System.Net.NetworkInformation": "4.1.0",
+          "System.Runtime.Serialization.Primitives": "4.1.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/MailKit.dll": {}
+        }
+      },
+      "Microsoft.Data.Sqlite/1.1.0": {
+        "dependencies": {
+          "SQLite": "3.13.0",
+          "System.Data.Common": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.Data.Sqlite.dll": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore/1.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Memory": "1.1.0",
+          "Microsoft.Extensions.DependencyInjection": "1.1.0",
+          "Microsoft.Extensions.Logging": "1.1.0",
+          "Remotion.Linq": "2.1.1",
+          "System.Interactive.Async": "3.0.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.dll": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Relational/1.1.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "1.1.0",
+          "System.Data.Common": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.dll": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Relational.Design/1.1.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "1.1.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.dll": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Sqlite/1.1.0": {
+        "dependencies": {
+          "Microsoft.Data.Sqlite": "1.1.0",
+          "Microsoft.EntityFrameworkCore.Relational": "1.1.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Sqlite.dll": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Sqlite.Design/1.1.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational.Design": "1.1.0",
+          "Microsoft.EntityFrameworkCore.Sqlite": "1.1.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Sqlite.Design.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Caching.Abstractions/1.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "1.1.0"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.Extensions.Caching.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Caching.Memory/1.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "1.1.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.1.0",
+          "Microsoft.Extensions.Options": "1.1.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.Extensions.Caching.Memory.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/1.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.1.0"
+        },
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.Extensions.DependencyInjection.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/1.1.0": {
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging/1.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.1.0",
+          "Microsoft.Extensions.Logging.Abstractions": "1.1.0"
+        },
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.Extensions.Logging.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/1.1.0": {
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Options/1.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.1.0",
+          "Microsoft.Extensions.Primitives": "1.1.0"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.Extensions.Options.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/1.1.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.Extensions.Primitives.dll": {}
+        }
+      },
+      "MimeKit/1.10.0": {
+        "dependencies": {
+          "Portable.BouncyCastle": "1.8.1.1",
+          "System.Data.Common": "4.3.0",
+          "System.Net.NetworkInformation": "4.1.0",
+          "System.Runtime.Serialization.Primitives": "4.1.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/MimeKit.dll": {}
+        }
+      },
+      "Portable.BouncyCastle/1.8.1.1": {
+        "runtime": {
+          "lib/netstandard1.3/crypto.dll": {}
+        }
+      },
+      "Remotion.Linq/2.1.1": {
+        "runtime": {
+          "lib/netstandard1.0/Remotion.Linq.dll": {}
+        }
+      },
+      "SQLite/3.13.0": {
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libsqlite3.so": {
+            "rid": "linux-x64",
+            "assetType": "native"
+          },
+          "runtimes/osx-x64/native/libsqlite3.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native"
+          },
+          "runtimes/win7-x64/native/sqlite3.dll": {
+            "rid": "win7-x64",
+            "assetType": "native"
+          },
+          "runtimes/win7-x86/native/sqlite3.dll": {
+            "rid": "win7-x86",
+            "assetType": "native"
+          }
+        }
+      },
+      "System.Collections.NonGeneric/4.0.1": {
+        "runtime": {
+          "lib/netstandard1.3/System.Collections.NonGeneric.dll": {}
+        }
+      },
+      "System.Collections.Specialized/4.0.1": {
+        "dependencies": {
+          "System.Collections.NonGeneric": "4.0.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Collections.Specialized.dll": {}
+        }
+      },
+      "System.ComponentModel.Primitives/4.1.0": {
+        "runtime": {
+          "lib/netstandard1.0/System.ComponentModel.Primitives.dll": {}
+        }
+      },
+      "System.ComponentModel.TypeConverter/4.1.0": {
+        "dependencies": {
+          "System.Collections.NonGeneric": "4.0.1",
+          "System.Collections.Specialized": "4.0.1",
+          "System.ComponentModel.Primitives": "4.1.0"
+        },
+        "runtime": {
+          "lib/netstandard1.5/System.ComponentModel.TypeConverter.dll": {}
+        }
+      },
+      "System.Data.Common/4.3.0": {
+        "runtime": {
+          "lib/netstandard1.2/System.Data.Common.dll": {}
+        }
+      },
+      "System.Interactive.Async/3.0.0": {
+        "runtime": {
+          "lib/netstandard1.0/System.Interactive.Async.dll": {}
+        }
+      },
+      "System.Net.NetworkInformation/4.1.0": {
+        "runtimeTargets": {
+          "runtimes/linux/lib/netstandard1.3/System.Net.NetworkInformation.dll": {
+            "rid": "linux",
+            "assetType": "runtime"
+          },
+          "runtimes/osx/lib/netstandard1.3/System.Net.NetworkInformation.dll": {
+            "rid": "osx",
+            "assetType": "runtime"
+          },
+          "runtimes/win/lib/netstandard1.3/System.Net.NetworkInformation.dll": {
+            "rid": "win",
+            "assetType": "runtime"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.3.0": {
+        "runtime": {
+          "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Runtime.Serialization.Primitives/4.1.1": {
+        "runtime": {
+          "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {}
+        }
+      },
+      "Abc.ApiContract/1.0.0": {
+        "runtime": {
+          "Abc.ApiContract.dll": {}
+        }
+      },
+      "Abc.Dal/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "1.1.0",
+          "Microsoft.EntityFrameworkCore.Sqlite.Design": "1.1.0",
+          "Abc.ApiContract": "1.0.0"
+        },
+        "runtime": {
+          "Abc.Dal.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Abc.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AutoMapper/5.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ulUMmzFg1vAFMpTyJsplgnC7pOIFlb25dbldHd7J4eroQWjSV4iAoOQ33h1oMjf6mLo3uZ8aRNUN2rgpOeSE1w=="
+    },
+    "MailKit/1.10.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-d+uJ+KoH2b3uEUCQHKZSLWfJ+BOMJQpQovx0PMdQDCVrfbLP4AnmMsNB9x2D89GZv33n8YJw8IHNWfhxsGMgmg=="
+    },
+    "Microsoft.Data.Sqlite/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T09U31d2uBe9bvECrz/5cgMPR3256D8SY/+bVDD+KqpX9kbLQuyunm8pR9aUDlsRrVOlSq5Gbg2vMOnBMRbJRQ=="
+    },
+    "Microsoft.EntityFrameworkCore/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S00vr6pLeoCMbm1PsXNZIceCAA/TUX83W3f2PcLFLGrx2QnGo5aqhtYjHvBhOVKJXZmt52EKEdORoTZVZ/swww=="
+    },
+    "Microsoft.EntityFrameworkCore.Relational/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5LkSh1GHK/ZbI/2N6YxyofFKaAVe5/RBN38G6UQzOQVgfJxzucpJVyZt1mGHBkJ4yTlr4WQS9Wr3Ppa5X0opbw=="
+    },
+    "Microsoft.EntityFrameworkCore.Relational.Design/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fF0sVEUkoGeJutGIzwnYsJJ9o2hxEGJRpSaCxPq63rhSwn0hBmCwf9ET4QqYqO9Pc6+ODXenAQa095CWzuM4Kg=="
+    },
+    "Microsoft.EntityFrameworkCore.Sqlite/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hfbLTqGyGui9ZkvrE7BYjSMOWMLTwINqhg7yU0h13/SG1crLkf2rbH9lSpi17fRlcygasuJXJFgONqHTRFknQQ=="
+    },
+    "Microsoft.EntityFrameworkCore.Sqlite.Design/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xI66R5PXbfk2IEEKnQ8D8Y6Zbpep1xhxbXsyn42/8kNuNLKDWlIamM3RwyDciFnaBdHMMmncJFTh+dDQAAiyBw=="
+    },
+    "Microsoft.Extensions.Caching.Abstractions/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uMbUDz/lNoO9LGc+DSjKMLWJk+y4qX6syDRcmQC0w6LSQzizkRqmo5Y8jO0ePtZRjF2lSGgO5URt4YgB6STDBQ=="
+    },
+    "Microsoft.Extensions.Caching.Memory/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ihFzFRKf/LrXHIvn0wDDt6oLxaAjsCPfrIzV9CLrTURD7qT+HujJ0TaRfC91e6tB8OAgkzY4AsHRBNq8KzrQQQ=="
+    },
+    "Microsoft.Extensions.DependencyInjection/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-meG2tsLdHT0SROqxGBiY8A6XUKlwsQVj1N9cyrS+ZJd1MKhoSaw54KuSH6PmpCB/K/ifkR7o9yVVVamu9XZyeg=="
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2luhjVaWZd8Wmr2KUJcLNAN+iZgezTyfamLG6Lo5FVYY1LYaS7UFOmNtApHGVIytWWtuXSk4ea0t2Vx0HgF5fg=="
+    },
+    "Microsoft.Extensions.Logging/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IbNogJJE3NRtc5/DAtKEkhXaUQK9N7I6A5G2+ZfyBzWMvAgLKSimESpNMp+gnzUYsW3YbHkeT8jLk9m/3vGY5A=="
+    },
+    "Microsoft.Extensions.Logging.Abstractions/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5zDtM0Dal+pwDIj49PPq9Y8SYu6z70v55VDx70rOuquLTlaCIdv9uItkcp9c1FH/ASNdfANVnh1cTwd85dyE+Q=="
+    },
+    "Microsoft.Extensions.Options/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NZlEcVm+SPPeNAkYuwiZdqnMrs/Lne/cDAWiBal1EL//m/KjDgOC6jKg5m9rt/cvqb7Obql5e0JtkNmdP1fGQA=="
+    },
+    "Microsoft.Extensions.Primitives/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GhQG5CBUR9/czBLTblt1giKBkfvHVDeppWd6KIgPyexrspECqzzSW5IXe0STTTs2NlUp9vIFwjSWG8O9c74R9g=="
+    },
+    "MimeKit/1.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aYKyFJAic0GLfXvRQYEowhv4ZmibwhwpsEK1B0mlkGsSRbnR94yFBhLbal5D6qgJEpEdDBZJOuInICEEwEfN0w=="
+    },
+    "Portable.BouncyCastle/1.8.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bKqC2Me9ukybNYTBhlYd2sJ6j2kRV7SgB+JfiP2GueYq6QdM4Ym6PYV5eyrqb6KViOyd3zqQfJp0o6UW5ZG+GQ=="
+    },
+    "Remotion.Linq/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IJn0BqkvwEDpP+2qjvci7n4/a9f7DhKESLWb2/uG4xQh3rTkGTBUz69bI4IivCoKkTFAqjXxYDZw2K/npohjsw=="
+    },
+    "SQLite/3.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MJfRiz2p6aMVOxrxGMdVzhpzI0oxTgZSwC8eVuOpV8L7yYaFUu8q/OFYwv9P0/aZ/pdEu24O6gma6wZJMTun9A=="
+    },
+    "System.Collections.NonGeneric/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hMxFT2RhhlffyCdKLDXjx8WEC5JfCvNozAZxCablAuFRH74SCV4AgzE8yJCh/73bFnEoZgJ9MJmkjQ0dJmnKqA=="
+    },
+    "System.Collections.Specialized/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/HKQyVP0yH1I0YtK7KJL/28snxHNH/bi+0lgk/+MbURF6ULhAE31MDI+NZDerNWu264YbxklXCCygISgm+HMug=="
+    },
+    "System.ComponentModel.Primitives/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sc/7eVCdxPrp3ljpgTKVaQGUXiW05phNWvtv/m2kocXqrUQvTVWKou1Edas2aDjTThLPZOxPYIGNb/HN0QjURg=="
+    },
+    "System.ComponentModel.TypeConverter/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MnDAlaeJZy9pdB5ZdOlwdxfpI+LJQ6e0hmH7d2+y2LkiD8DRJynyDYl4Xxf3fWFm7SbEwBZh4elcfzONQLOoQw=="
+    },
+    "System.Data.Common/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lm6E3T5u7BOuEH0u18JpbJHxBfOJPuCyl4Kg1RH10ktYLp5uEEE1xKrHW56/We4SnZpGAuCc9N0MJpSDhTHZGQ=="
+    },
+    "System.Interactive.Async/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UEM+WmG1Oq0bNbPx/E1jaIQ83QOrPfVDUyuYBtG6D6DpB77ytv9flPterMujumpHuoRjSc0ilSB8w41fQc05dw=="
+    },
+    "System.Net.NetworkInformation/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Q0rfeiW6QsiZuicGjrFA7cRr2+kXex0JIljTTxzI09GIftB8k+aNL31VsQD1sI2g31cw7UGDTgozA/FgeNSzsQ=="
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rcnXA1U9W3QUtMSGoyoNHH6w4V5Rxa/EKXmzpORUYlDAlDB34hIQoU57ATXl8xHa83VvzRm6PcElEizgUd7U5w=="
+    },
+    "System.Runtime.Serialization.Primitives/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HZ6Du5QrTG8MNJbf4e4qMO3JRAkIboGT5Fk804uZtg3Gq516S7hAqTm2UZKUHa7/6HUGdVy3AqMQKbns06G/cg=="
+    },
+    "Abc.ApiContract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Abc.Dal/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
