@@ -1,5 +1,5 @@
---temp-output:C:\Projects\Livit_Test\src\Abc.ApiContract\obj\Debug\netcoreapp1.1\
---out:C:\Projects\Livit_Test\src\Abc.ApiContract\bin\Debug\netcoreapp1.1\Abc.ApiContract.dll
+--temp-output:C:\Users\An\Documents\GitHub\Livit_Test\src\Abc.ApiContract\obj\Debug\netcoreapp1.1\
+--out:C:\Users\An\Documents\GitHub\Livit_Test\src\Abc.ApiContract\bin\Debug\netcoreapp1.1\Abc.ApiContract.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_1
@@ -87,11 +87,11 @@
 --reference:C:\Users\An\.nuget\packages\System.Threading.Timer\4.3.0\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\An\.nuget\packages\System.Xml.ReaderWriter\4.3.0\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\An\.nuget\packages\System.Xml.XDocument\4.3.0\ref\netstandard1.3\System.Xml.XDocument.dll
-C:\Projects\Livit_Test\src\Abc.ApiContract\Program.cs
-C:\Projects\Livit_Test\src\Abc.ApiContract\Arguments\AbsenceApproveArgument.cs
-C:\Projects\Livit_Test\src\Abc.ApiContract\Arguments\AbsenceCreateArgument.cs
-C:\Projects\Livit_Test\src\Abc.ApiContract\Arguments\LoginArgument.cs
-C:\Projects\Livit_Test\src\Abc.ApiContract\Results\AbsenceApproveResult.cs
-C:\Projects\Livit_Test\src\Abc.ApiContract\Results\AbsenceCreateResult.cs
-C:\Projects\Livit_Test\src\Abc.ApiContract\Results\LoginResult.cs
-C:\Projects\Livit_Test\src\Abc.ApiContract\Results\Result.cs
+C:\Users\An\Documents\GitHub\Livit_Test\src\Abc.ApiContract\Program.cs
+C:\Users\An\Documents\GitHub\Livit_Test\src\Abc.ApiContract\Arguments\AbsenceApproveArgument.cs
+C:\Users\An\Documents\GitHub\Livit_Test\src\Abc.ApiContract\Arguments\AbsenceCreateArgument.cs
+C:\Users\An\Documents\GitHub\Livit_Test\src\Abc.ApiContract\Arguments\LoginArgument.cs
+C:\Users\An\Documents\GitHub\Livit_Test\src\Abc.ApiContract\Results\AbsenceApproveResult.cs
+C:\Users\An\Documents\GitHub\Livit_Test\src\Abc.ApiContract\Results\AbsenceCreateResult.cs
+C:\Users\An\Documents\GitHub\Livit_Test\src\Abc.ApiContract\Results\LoginResult.cs
+C:\Users\An\Documents\GitHub\Livit_Test\src\Abc.ApiContract\Results\Result.cs
