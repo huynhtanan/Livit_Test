@@ -60,13 +60,13 @@ namespace Abc.Dal.Models
 					if (entry.State == EntityState.Added)
 					{
 						entity.CreatedDate = now;
-						base.Entry(entity).Property(x => x.UpdatedDate).IsModified = true;
 					}
 					else
 					{
-						entity.UpdatedDate = now;
-						base.Entry(entity).Property(x => x.UpdatedDate).IsModified = true;
+						base.Entry(entity).Property(x => x.CreatedDate).IsModified = false;
 					}
+					
+					entity.UpdatedDate = now;
 				}
 			}
 
